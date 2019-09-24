@@ -1,0 +1,20 @@
+body {
+    background-image: url(pencils.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #E6AA14;
+}
+
+#main {
+    background: lightgrey;
+    padding: 30px;
+    --aug-border: 5px;
+    --aug-border-bg: lightgrey;
+    --aug-r-height: 50%;
+    --aug-l-height: 50%;
+    --aug-t-width: 20%;
+    --aug-b-width: 20%;
+    margin-top: 10%;
+}

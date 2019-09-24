@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141915528-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-141915528-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Philip Kiely</title>
+    <!--boostrap 4 CSS-->
+    <link href="lib/bootstrap.min.css" rel="stylesheet">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!--Custom JS-->
+    <script src="script.js"></script>
+    <!--jQuery (AJAX)-->
+    <script src="lib/jquery.min.js"></script>
+    <!--boostrap 4 JS-->
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/augmented-ui/augmented.css">
+    </head>
+<body>
+<div class="container">
+<div class="col-12 col-md-8 offset-md-2" augmented-ui="r-clip-y t-clip-x b-clip-x l-clip-y exe" id="main">
+    <h1>DOQS</h1>
+    <p>
+        DOQS is creating premium, example-based documentation and educational content for developers.
+    </p>
+    <p>
+        Sign up below to be the first to know about our products.
+    </p>
+    <form onsubmit="emailListSignup();return false;">
+       <div class="form-row">
+         <div id="invalid-email" class="alert alert-danger col-sm-12" role="alert" hidden>
+             Please enter a valid email.
+         </div>
+         <div id="valid-email" class="alert alert-success col-sm-12" role="alert" hidden>
+             Registration sent!
+         </div>
+         <div class="col-sm-12 col-md-9 mb-2 mb-md-0">
+           <input type="email" class="form-control form-control-lg" id="get-email" placeholder="Enter your email...">
+         </div>
+         <div class="col-sm-12 col-md-3">
+           <button type="submit" class="btn btn-block btn-lg btn-primary">Notify Me</button>
+         </div>
+       </div>
+     </form>
+     <br />
+     <p>
+         Thoughts on the current state of documentation and developer education? <a href="mailto:philip+doqs@kiely.xyz">Email me!</a>
+     </p>
+     <br />
+</div>
+</div>
+</body>
